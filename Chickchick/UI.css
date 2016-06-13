@@ -1,0 +1,108 @@
+#HealthBar{
+    position: absolute;
+    bottom: 4%;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Heart{
+    width: 10%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.HeartCollapse{    
+    -webkit-animation: HeartBroking .6s ease-in-out alternate forwards;
+}
+
+@-webkit-keyframes HeartBroking{
+    to{transform: scale(0) rotate(30deg);};
+}
+
+#TimerDiv{
+    position: absolute;
+    Top: 4%;
+    width: 10%;
+    left: 4%;
+    height: 8%;
+}
+
+#Timer{
+    color: #C96969;
+    font-size: 36pt;
+}
+
+#ItemsPanel{    
+    display: block;
+    position: absolute;
+    Top: 4%;
+    left: 16%;
+    height: 8%;
+    width: 50vw;
+}
+
+.ItemFrame{
+    display: inline-block;
+    position: relative;
+    width: 10%;    
+    height: 100%;
+    border: 1px solid rgba(255,255,255, 0.5);
+    border-radius: 4px;    
+    cursor: pointer;
+    margin: 0% 2%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#ScoreText{
+    text-align: right;
+    display: block;
+    font-size: 14pt;
+    color: #C96969;
+    position: absolute;
+    right: 4%;
+    top: 4%;
+}
+
+#ScoreValue{
+    text-align: right;
+    display: block;
+    font-size: 32pt;
+    color: #C96969;
+    position: absolute;
+    right: 4%;
+    top: 5%;
+}
+
+#GUI{
+    display: none;
+}
+
+#Fund{
+    text-align: right;
+    display: inline-block;
+    color: #C96969;
+    font-size: 36pt;
+    bottom: 8%;
+    
+}
+
+#Coin{
+    display: inline-block;
+    bottom: 0%;
+    transform: scale(2);
+    image-rendering: pixelated;
+    
+}
+
+#FundDiv{
+    display: block;
+    font-size: 14pt;
+    color: #C96969;
+    position: absolute;
+    right: 4%;
+    bottom: 4%;    
+    
+}

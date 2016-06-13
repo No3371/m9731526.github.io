@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+#Frame{
+    border: 1px solid #D99999;
+    border-radius: 4px;
+    width: 80vw;
+    height: 80vh;
+    margin: 9vh auto;
+    
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    
+    -webkit-animation-name: blackin;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-fill-mode: both;
+}
+
+@-webkit-keyframes blackin{
+    from {opacity: 0;}
+    to {opacity: 100;}
+}
+
+#Menu_Options{
+    margin: auto;
+    width: 40%;
+    height: 40%;
+    
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    text-align: center;
+    
+    z-index: 0;
+}
+
+#Menu_Button{
+    margin: 10% 25%;
+    bottom: 10%;
+    
+    border: 2px solid #D99999;
+    width: 50%;
+    height: 20%;
+    border-radius: 18px;
+    background-color: transparent;
+    color: #D99999;
+    font-size: 14pt;
+    
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+
+#Menu_Button:hover{
+    background-color: #D99999;
+    color: white;
+    cursor: pointer;
+}
+
+p{
+    color: #D99999;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+#ChickMom{
+    image-rendering: pixelated;
+    max-width: 300%;
+    width: auto;
+    -webkit-transform: scale(3) translateY(-50%);
+    
+    -webkit-animation-name: ChickMommy;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes ChickMommy{
+    from {-webkit-transform:translate(0, 0px) scale(3) translateY(-50%);}
+    65% {-webkit-transform:translate(0, 15px) scale(3) translateY(-50%);}
+    to {-webkit-transform: translate(0, -0px) scale(3) translateY(-50%);}
+    
+}

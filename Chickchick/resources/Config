@@ -1,0 +1,74 @@
+{
+  "ChickenList":[
+    {
+      "Name": "小雞",
+      "Requirement": {
+        "TemperatureA":36,
+        "Energy": 15
+      },
+      "Value": 3,
+      "Priority": 0
+    },
+    {
+      "Name": "彩虹小雞",
+      "Requirement": {
+        "TemperatureA": 62,
+        "Energy": 37,
+        "Holiness": 5,
+        "Pigment": 7,
+        "Precious": 5
+      },
+      "Value": 24,
+      "Priority": 8
+    },
+    {
+      "Name": "教授雞",
+      "Requirement": {
+        "TemperatureA": 36,
+        "Energy": 15
+        "Glasses": 1,
+        "Literacy": 16,
+        "Book": 1
+      },
+      "Value": 8,
+      "Priority": 0
+    },
+    {
+      "Name": "水汪汪雞",
+      "Requirement": {
+        "TemperatureA": 4,
+        "Energy": 0,
+        "Water": 100,
+        "Mana": 5
+      },
+      "Value": 30,
+      "Priority": 0
+    },
+    {
+      "Name": "鋼鐵雞",
+      "Requirement": {
+        "TemperatureA": 323,
+        "Energy": 120,
+        "Metal": 58,
+        "Battery": 2
+      },
+      "Value": 3,
+      "Priority": 0
+    },
+    {
+      "Name": "高挑雞",
+      "Requirement": {},
+      "Value": 3,
+      "Priority": 0
+    },
+    {
+      "Name": "潮潮雞",
+      "Requirement": {},
+      "Value": 3,
+      "Priority": 0
+    },
+    
+  
+  ],
+  "ItemList": []
+}
